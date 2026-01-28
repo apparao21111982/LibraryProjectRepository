@@ -51,5 +51,6 @@ jobs:
         with:
           app-name: 'LibraryProject'
           slot-name: 'Production'
-          package: .
+          package: build
+
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0A597C54A88C4334ACCAA3BA22B747A5 }}
